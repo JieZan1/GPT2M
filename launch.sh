@@ -11,7 +11,7 @@
 module load cuda/cuda-12.6
 module load miniconda/miniconda-fall2024
 source ~/.bashrc
-conda activate test_jf
+conda activate base
 
 echo "Test" > test_out.txt
 nvidia_smi >> test_out.txt
