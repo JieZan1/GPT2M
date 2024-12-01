@@ -10,6 +10,8 @@
 
 module load miniconda/miniconda-fall2024
 conda init bash
+conda activate base
+
 
 
 
