@@ -15,7 +15,7 @@ conda activate base
 
 echo "Test" > test_out.txt
 nvidia_smi >> test_out.txt
-python xxx.py
+python core.py
 
 
 
